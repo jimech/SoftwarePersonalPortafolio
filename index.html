@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-2.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Jimena Chinchilla G.</h1>
+
+          <p class="title">Software Engineering/ AI student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">jimemettr@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+49 151 5839 4952</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">May 26, 02</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Germany</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Artificial Intelligence student, an enthusiastic mentee of any useful technology. Passionate in Artificial Intelligence, statistics, machine learning, programming and web/mobile development.
+          </p>
+
+          <p>
+            Experience in building systems in Java, Python and Golang. Knowledge in Javascript, React and Statistics tools like R. 
+
+            Robotics & Artificial Intelligence practitioner with keen interests in the practical applications of Deep Reinforcement Learning and Computer Vision in Robotics and Brain-Computer Interfaces.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Back-end Applications</h4>
+
+                <p class="service-item-text">
+                  Development of applications 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data And Analytics</h4>
+
+                <p class="service-item-text">
+                  Analytics and AI solutions
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Experience</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="" alt="" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 service-item-title">Amherst Holdings Inc</h4>
+
+                <p class="service-item-text">
+                  Junior Software Developer
+                </p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="" alt="" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 service-item-title">Freelancing</h4>
+
+                <p class="service-item-text">
+                  FullStack Application Development
+                </p>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+           
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="" alt="" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title></h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                  
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="" alt="" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              
+
+              <div data-modal-text>
+                <p>
+                
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Companies</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/OIP.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://cinde.s3.amazonaws.com/provider/44/Foto_de_portada.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="data:image/png;base64,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" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+        
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Deggendorf Institute of Technology</h4>
+
+              <span>2023 — 2026</span>
+
+              <p class="timeline-text">
+               Bachelor of Engineering- BE, Artificial Intelligence
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universidad de Costa Rica</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Bachelor of Engineering- BE, Software Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universidad de Costa Rica</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                Technical Degree, Front-end Web Development
+              </p>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">NYU Tandon School of Engineering</h4>
+  
+                <span>2020</span>
+  
+                <p class="timeline-text">
+                 Applied Research Innovations in Science and Engineering (ARISE)
+                </p>
+
+
+
+
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Entry-level Python Developer</h4>
+
+              <span>Issued May 2023</span>
+
+              <p class="timeline-text">
+               Cisco
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cibersecurity (LCSPC) </h4>
+
+              <span>Issued Feb 2022</span>
+
+              <p class="timeline-text">
+                Universidad Cenfotec
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Programming with Python for Application Development</h4>
+
+              <span>Issued Oct 2021</span>
+
+              <p class="timeline-text">
+               Universidad de Costa Rica UCR
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Application development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine learning</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Front-end Web Development</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Statistics</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/pasted-image-0.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Is Code the Best Way to Represent a Data Analysis?</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"></time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title"></h3>
+
+                  <p class="blog-text">
+                    Code is a useful representation of a data analysis for the purposes of transparency and opennness. But code alone is often insufficient for evaluating the quality of a data analysis and for determining why certain outputs differ from what was expected. Is there a better way to represent a data analysis that helps to resolve some of these questions?
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Asset-37-1.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">On Artificial Intelligence and Surveillance Capitalism</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23"></time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title"></h3>
+
+                  <p class="blog-text">
+                    In today's digital age, our personal and private experiences are being manipulated in ways we could have Never imagined. Silicon Valley giants like Google and Facebook have hijacked our data and turned it into a highly profitable commodity. This phenomenon, known as surveillance capitalism, has become a pervasive force in our lives. In this article, we will Delve deeper into the age of surveillance capitalism, examining its origins, its mechanisms, and its profound implications for our privacy and democracy.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            
+        
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2V-Mo_l1nkcRfZixfUq4DAE&key=AIzaSyC73NkcrTYcA9KJgqod50Lp-B1AuzOyR1M"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
